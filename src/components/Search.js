@@ -1,6 +1,6 @@
-import { Component } from 'react'
+import React from 'react'
 
-export default class Search extends Component {
+export default class Search extends React.Component {
   state = {
     search: 'panda',
     type: 'all',
